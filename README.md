@@ -17,14 +17,14 @@
 採用既定json格式作為training data的input (請參照[train-v1.1.json](./data/train-v1.1.json))。在過程中，我們將 1.文章 2.問題 及 3.答案 抓出，分別存成3個list。文章及問題的list會經過word2vector將字詞轉換成向量，最後將3個list都轉成numpy array。文章及問題array作為model input，答案array作為model output。
 
 
-```shell
+```bash
 python train.py <train.json>
 ```
 
 ### Testing :
 一樣採用既定json格式作為testing data的input (請參照[test-v1.1.json](./data/test-v1.1.json))。與traing data process相比，我們只抓出文章及對應的問題，並經過word2vector轉換，最後將文章及問題arrays作為model input，並得到predict結果。
 
-```shell
+```bash
 python test.py <test.json> <output.csv>
 ```
 
