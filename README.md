@@ -17,16 +17,11 @@
 ### Training :
 採用既定json格式作為training data的input (請參照[train-v1.1.json](./data/train-v1.1.json))。在過程中，我們將 1.文章 2.問題 及 3.答案 抓出，分別存成3個list。文章及問題的list會經過word2vector將字詞轉換成向量，最後將3個list都轉成numpy array。文章及問題array作為model input，答案array作為model output，並開始訓練model。完成訓練後，會將model存成**model.h5**，待predict時使用。
 
-
-```sh
-python test.py <train.json>
-```
-
 ### Testing :
 一樣採用既定json格式作為testing data的input (請參照[test-v1.1.json](./data/test-v1.1.json))。與traing data process相比，只抓出文章及對應的問題，並經過word2vector轉換，最後將文章及問題arrays作為model input，並得到predict結果。
 
 ```sh
-python test.py <test.json> <output.csv>
+python test.sh <test.json> <output.csv>
 ```
 
 ## Collaborators : 
@@ -35,7 +30,7 @@ python test.py <test.json> <output.csv>
 (inspired from Ian Goodfellow)
 
 ### member :
-- Huang.Ychen (黃彥澄)
-- Lin.ZhuangYing (林宗穎)
+- Huang.Ychen (黃彥澄) ([github](https://github.com/yenchenghuang))
+- Lin.ZhuangYing (林宗穎) ([github](https://github.com/ljn3333))
 - Lin.YiJing (林益璟) ([github](https://github.com/YiJingLin))
 
