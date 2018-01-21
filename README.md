@@ -3,7 +3,9 @@
 > [Machine Learning (2017, Fall)](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html) - Final Project
 - kaggle competition ([link](https://www.kaggle.com/c/ml-2017fall-final-chinese-qa/leaderboard))
 
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/3.6.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/Naereen/StrapDown.js/releases/)
+
 
 ## Introduction :
 ### Abstract :
