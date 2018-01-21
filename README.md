@@ -18,14 +18,14 @@
 
 
 ```
-python train.py <train json> <keras model>
+python train.py <train.json>
 ```
 
 ### Testing :
 一樣採用既定json格式作為testing data的input (請參照[test-v1.1.json](./data/test-v1.1.json))。與traing data process相比，我們只抓出文章及對應的問題，並經過word2vector轉換，最後將文章及問題arrays作為model input，並得到predict結果。
 
 ```
-python test.py <test json> <output csv>
+python test.py <test.json> <output.csv>
 ```
 
 ## Collaborators : 
