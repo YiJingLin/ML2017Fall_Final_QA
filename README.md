@@ -33,6 +33,6 @@ bash test.sh <test.json> <output.csv>
 
 ### member :
 - Huang.Ychen (黃彥澄) ([github](https://github.com/yenchenghuang))
-- Lin.ZhuangYing (林宗穎) ([github](https://github.com/ljn3333))
+- Lin.TzungYing (林宗穎) ([github](https://github.com/ljn3333))
 - Lin.YiJing (林益璟) ([github](https://github.com/YiJingLin))
 
