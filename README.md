@@ -3,7 +3,7 @@
 > [Machine Learning (2017, Fall)](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17_2.html) - Final Project
 - kaggle competition ([link](https://www.kaggle.com/c/ml-2017fall-final-chinese-qa/leaderboard))
 
-[![Maintained?](https://img.shields.io/badge/jieba-no-red.svg)](https://pypi.python.org/pypi/jieba/)
+[![Maintained?](https://img.shields.io/badge/Maintained?-no-red.svg)](https://pypi.python.org/pypi/jieba/)
 
 ## Dependancy :
 [![python version](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
